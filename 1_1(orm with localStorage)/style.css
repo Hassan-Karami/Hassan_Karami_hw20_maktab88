@@ -1,0 +1,53 @@
+#create_form_container{
+    border: 4px red solid;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+        display: inline-block;
+
+}
+input{
+    margin: 10px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#seed_btn_container{
+    text-align: center;
+}
+#seed{
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: green;
+    border: green;
+}
+
+.form_btn{
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#update_form_container{
+    border: 4px blue solid;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#delete_form_container{
+    border: 4px yellow solid;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 30px;
+}

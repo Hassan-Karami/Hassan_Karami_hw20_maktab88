@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Users</title>
+</head>
+<body>
+
+    <div id="seed_btn_container"><button id="seed">Seed LocalStorage</button></div>
+
+
+    <div id="create_form_container">   
+     <div><input id="firstName_create_input" placeholder="First_Name" type="text"></div>
+     <div><input id="lastName_create_input" placeholder="Last_Name" type="text"></div>
+     <div><input id="email_create_input" placeholder="Email" type="email"></div>
+     <div><input id="avatar_create_input" placeholder="Avatar Link" type="text"></div>
+     <button class="form_btn" id="create_btn">CREATE</button>
+    </div>
+
+    <div id="update_form_container">
+     <div><input id="id_update_input" placeholder="ID" type="number"></div>
+     <div><input id="firstName_update_input" placeholder="First_Name" type="text"></div>
+     <div><input id="lastName_update_input" placeholder="Last_Name" type="text"></div>
+     <div><input id="email_update_input" placeholder="Email" type="email"></div>
+     <div><input id="avatar_update_input" placeholder="Avatar Link" type="text"></div>
+     <button class="form_btn" id="update_btn">UPDATE</button>
+    </div>
+
+    <div id="delete_form_container">
+        <input type="number" id="id_delete_input" placeholder="ID of user">
+        <button class="form_btn" id="delete_btn">DELETE</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="./dist/orm.js"></script>
+</body>
+</html>
