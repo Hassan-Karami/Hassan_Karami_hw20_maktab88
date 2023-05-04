@@ -11,6 +11,20 @@
 
     <div id="seed_btn_container"><button id="seed">Seed LocalStorage</button></div>
 
+     <div id="user_info_container">
+    <label >Enter User ID:</label><br>
+     <div><input id="targetUser_id_input" placeholder="ID" type="number"></div>
+     <button class="form_btn" id="get_user_btn">GET USER</button><br>
+     <label >First Name:</label><br>
+     <div><input id="targetUser_firstName_input" placeholder="First_Name" type="text"></div>
+     <label >Last Name:</label><br>
+     <div><input id="targetUser_lastName_input" placeholder="Last_Name" type="text"></div>
+     <label >Email:</label><br>
+     <div><input id="targetUser_email_input" placeholder="Email" type="email"></div>
+     <label >Avatar:</label><br>
+     <div><input id="targetUser_avatar_input" placeholder="Avatar Link" type="text"></div>
+    </div>
+
 
     <div id="create_form_container">   
      <div><input id="firstName_create_input" placeholder="First_Name" type="text"></div>
@@ -33,6 +47,12 @@
         <input type="number" id="id_delete_input" placeholder="ID of user">
         <button class="form_btn" id="delete_btn">DELETE</button>
     </div>
+
+    <div id="get_all_users_container">
+        <div><button class="form_btn" id="get_all_users_btn">Print All Users</button></div>
+        <textarea name="users_list" id="text_area" cols="40" rows="40"></textarea>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <script src="./dist/orm.js"></script>

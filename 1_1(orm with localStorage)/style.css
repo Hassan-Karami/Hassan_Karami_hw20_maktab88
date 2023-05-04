@@ -15,6 +15,8 @@ input{
 
 #seed_btn_container{
     text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 #seed{
     margin: 10px auto;
@@ -39,7 +41,7 @@ input{
     border-radius: 8px;
     text-align: center;
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 #delete_form_container{
@@ -49,5 +51,26 @@ input{
     border-radius: 8px;
     text-align: center;
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 50px;
+}
+
+#get_all_users_container{
+    margin-top: 70px;
+    text-align: center;
+    
+
+}
+#user_info_container{
+    border: 4px blueviolet solid;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+
+#text_area{
+    font-size: 20px;
 }
